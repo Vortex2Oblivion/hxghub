@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+	<files id="ghub">
+	    <file name="${haxelib:hxghub}/vendor/include/LogitechLEDLib.h" />
+	</files>
+
+	<files id="haxe">
+		<compilervalue name="-I" value="${haxelib:hxghub}/vendor/include/" />
+	</files>
+
+    <target id="haxe" tool='linker'>
+		<lib name="${haxelib:hxghub}/vendor/Lib/x64/LogitechLEDLib.lib" />
+	</target>
+
+    <copyFile name="LogitechLedEnginesWrapper.dll" from="${haxelib:hxghub}/vendor/Lib/LogitechLedEnginesWrapper/x64" toolId="exe" />
+</xml>
