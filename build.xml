@@ -11,10 +11,13 @@
 		<compilervalue name="-I" value="${haxelib:hxghub}/vendor/Include/" />
 	</files>
 
-    <target id="haxe" tool="linker" toolId="exe">
-		<libpath name="${haxelib:hxghub}/vendor/Lib/x64/" />
-		<lib name="LogitechLEDLib.lib" />
-	</target>
+    <target id="haxe">
+        <lib name="${haxelib:hxghub}/vendor/Lib/x64/LogitechGArxControlLib.lib" />
+		<lib name="${haxelib:hxghub}/vendor/Lib/x64/LogitechGkeyLib.lib" />
+		<lib name="${haxelib:hxghub}/vendor/Lib/x64/LogitechLCDLib.lib" />
+		<lib name="${haxelib:hxghub}/vendor/Lib/x64/LogitechLEDLib.lib" />
+		<lib name="${haxelib:hxghub}/vendor/Lib/x64/LogitechSteeringWheelLib.lib" />
+    </target>
 
     <copyFile name="LogitechLedEnginesWrapper.dll" from="${haxelib:hxghub}/vendor/Lib/LogitechLedEnginesWrapper/x64" toolId="exe" />
 </xml>
