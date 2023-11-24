@@ -13,6 +13,7 @@
 
 	<files id="haxe">
 		<compilervalue name="-I" value="${haxelib:hxghub}/vendor/Include/" />
+		<compilervalue name="-I" value="${haxelib:hxghub}/vendor/Lib/x64/" />
 	</files>
 
     <target id="haxe">

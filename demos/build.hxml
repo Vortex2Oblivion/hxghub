@@ -2,5 +2,4 @@
 --cpp bin/
 --library hxghub
 -D HXCPP_M64
--D analyzer-optimize
 --main Main
