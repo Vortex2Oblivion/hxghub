@@ -1,7 +1,6 @@
 --class-path src
 --cpp bin/
 --library hxghub
---dce full
 -D HXCPP_M64
 -D analyzer-optimize
 --main Main
