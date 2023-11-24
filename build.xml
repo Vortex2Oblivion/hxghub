@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xml>
 	<files id="ghub">
-	    <file name="${haxelib:hxghub}/vendor/Include/LogitechLEDLib.h" />
-		<file name="${haxelib:hxghub}/vendor/Include/targetver.h" />
-		<file name="${haxelib:hxghub}/vendor/Include/stdafx.h" />
+	    <file name="${haxelib:hxghub}/vendor/Include/LogitechGArxControlLib.h" />
+		<file name="${haxelib:hxghub}/vendor/Include/LogitechGkeyLib.h" />
+		<file name="${haxelib:hxghub}/vendor/Include/LogitechLCDLib.h" />
+		<file name="${haxelib:hxghub}/vendor/Include/LogitechLEDLib.h" />
+		<file name="${haxelib:hxghub}/vendor/Include/LogitechSteeringWheelLib.h" />
 		<file name="${haxelib:hxghub}/vendor/Include/stdafx.cpp" />
+		<file name="${haxelib:hxghub}/vendor/Include/stdafx.h" />
+		<file name="${haxelib:hxghub}/vendor/Include/targetver.h" />
 	</files>
 
 	<files id="haxe">
@@ -20,4 +24,8 @@
     </target>
 
     <copyFile name="LogitechLedEnginesWrapper.dll" from="${haxelib:hxghub}/vendor/Lib/LogitechLedEnginesWrapper/x64" toolId="exe" />
+	<copyFile name="LogitechGkeyEnginesWrapper.dll" from="${haxelib:hxghub}/vendor/Lib/GameEnginesWrapper/x64" toolId="exe" />
+	<copyFile name="LogitechLcdEnginesWrapper.dll" from="${haxelib:hxghub}/vendor/Lib/GameEnginesWrapper/x64" toolId="exe" />
+	<copyFile name="LogitechSteeringWheelEnginesWrapper.dll" from="${haxelib:hxghub}/vendor/Lib/GameEnginesWrapper/x64" toolId="exe" />
+	<copyFile name="LogitechGArxControlEnginesWrapper.dll" from="${haxelib:hxghub}/vendor/Lib/LogitechGArxControlEnginesWrapper/x64" toolId="exe" />
 </xml>
