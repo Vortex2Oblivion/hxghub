@@ -2,6 +2,8 @@ package hxghub;
 
 @:buildXml("<include name='${haxelib:hxghub}/build.xml' />")
 @:include("LogitechLEDLib.h")
+@:include("stdafx.h")
+@:include("iostream")
 
 extern class Logitech {
     @:native('::String(LOGI_LED_BITMAP_WIDTH)')
