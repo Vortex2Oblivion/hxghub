@@ -21,6 +21,12 @@ class Main {
 		ledSetLightingForKeyWithKeyName(G, 0, 100, 100);
 		ledSetLightingForKeyWithKeyName(I, 0, 100, 100);
 
+		ledSetLightingForKeyWithKeyName(H, 91, 51, 13);
+		ledSetLightingForKeyWithKeyName(A, 91, 51, 13);
+		ledSetLightingForKeyWithKeyName(X, 91, 51, 13);
+		ledSetLightingForKeyWithKeyName(E, 91, 51, 13);
+
+
 		ledSetLightingForTargetZone(MOUSE, 1, 100, 0, 0);
 
 		ledSetLightingForTargetZone(KEYBOARD, 1, 100, 0, 0);
