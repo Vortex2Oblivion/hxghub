@@ -1,0 +1,3 @@
+--class-path test/src
+--cpp test/bin/cpp
+--main Main

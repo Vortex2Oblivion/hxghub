@@ -1,0 +1,7 @@
+--class-path src
+--cpp bin/
+--library hxghub
+-D HXCPP_M64
+--main Main
+--cmd cd bin
+--cmd main.exe

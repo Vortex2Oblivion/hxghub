@@ -1,0 +1,13 @@
+{
+    "name": "hxghub",
+    "url" : "https://github.com/Vortex2Oblivion/hxghub",
+    "license": "MIT",
+    "tags": ["hxcpp", "cpp", "bindings", "native", "ghub", "logi", "logitech", "game"],
+    "description": "Haxe/hxcpp @:native bindings for Logitech GHUB",
+    "version": "1.0.0",
+    "releasenote": "Work In Progress",
+    "contributors": ["Vortex"],
+    "dependencies": {
+      "hxcpp": ""
+    }
+  }

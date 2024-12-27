@@ -1,0 +1,20 @@
+<xml>
+	<pragma once="true" />
+
+	<set name="PROJECT_DIR" value="${this_dir}/" />
+
+	<files id='haxe'>
+		<compilerflag value="-I${PROJECT_DIR}include" />
+	</files>
+
+	<files id="__main__">
+		<compilerflag value="-I${PROJECT_DIR}include" />
+	</files>
+
+    <target id="haxe">
+		<!-- When codeium told me to add this random lib file to get it to compile and it worked I was like O_O ok what?-->
+        <lib name="advapi32.lib" />
+		<libpath name="${PROJECT_DIR}lib/x64" />
+		<lib name="LogitechLEDLib.lib" />
+	</target>
+</xml>

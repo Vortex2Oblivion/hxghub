@@ -1,0 +1,6 @@
+test/bin
+.vscode
+include/*
+!include/README.md
+lib/*
+!lib/README.md
